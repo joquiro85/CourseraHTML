@@ -4,23 +4,49 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Explora paisajes naturales increíbles, descubre actividades al aire libre y conoce más sobre la conservación del medio ambiente.">
    <title>Explorando la Naturaleza</title>
 </head>
 
 <body>
+
    <header>
       <h1>Descubre los Paisajes Naturales</h1>
+      <nav>
+         <ul>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#info">Más Información</a></li>
+         </ul>
+      </nav>
    </header>
 
    <main>
-      <section>
+      <section id="galeria">
          <h2>Galería de Lugares Asombrosos</h2>
-         <img src="Images\A beautiful mountain.webp" alt="Paisaje montañoso al atardecer con colores vibrantes">
-         <img src="Images\A beautiful mountain.webp" alt="Un bosque otoñal con hojas doradas y rojas">
-         <img src="Images\A tropical beach.webp"     alt="Playa tropical con arena blanca y palmeras">
+
+         <figure>
+            <img src="images/mountain.webp"
+               alt="Vista panorámica de un paisaje montañoso al atardecer con el cielo en tonos anaranjados"
+               loading="lazy">
+            <figcaption>Atardecer en las montañas</figcaption>
+         </figure>
+
+         <figure>
+            <img src="images/autumn.webp" alt="Un sendero rodeado de árboles con hojas doradas y rojas en otoño"
+               loading="lazy">
+            <figcaption>Otoño en el bosque</figcaption>
+         </figure>
+
+         <figure>
+            <img src="images/beach.webp"
+               alt="Playa tropical con arena blanca, palmeras y agua cristalina de color turquesa" loading="lazy">
+            <figcaption>Paraíso tropical</figcaption>
+         </figure>
       </section>
 
-      <section>
+      <section id="actividades">
          <h2>Actividades Recomendadas</h2>
          <ul>
             <li>Explorar senderos en parques naturales</li>
@@ -29,16 +55,20 @@
          </ul>
       </section>
 
-      <section>
+      <section id="info">
          <h2>Más Información</h2>
-         <p>Para conocer más sobre la conservación de la naturaleza, visita <a
-               href="https://www.nationalgeographic.com/environment/" target="_blank">National Geographic</a>.</p>
+         <p>Para conocer más sobre la conservación de la naturaleza, visita
+            <a href="https://www.nationalgeographic.com/environment/" target="_blank" rel="noopener noreferrer">
+               National Geographic
+            </a>.
+         </p>
       </section>
    </main>
 
    <footer>
       <p>&copy; 2025 Explorando la Naturaleza</p>
    </footer>
+
 </body>
 
 </html>
